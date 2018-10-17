@@ -5,7 +5,7 @@ class IndicesController < ApplicationController
   # GET /indices
   # GET /indices.json
   def index
-    @indices = Index.all
+    @indices = current_user.index
   end
 
   # GET /indices/1
@@ -15,7 +15,7 @@ class IndicesController < ApplicationController
 
   # GET /indices/new
   def new
-    @index = Index.new
+    @index = current_user.index.new
   end
 
   # GET /indices/1/edit
@@ -25,7 +25,7 @@ class IndicesController < ApplicationController
   # POST /indices
   # POST /indices.json
   def create
-    @index = Index.new(index_params)
+    @index = current_user.index.new(index_params)
 
     respond_to do |format|
       if @index.save

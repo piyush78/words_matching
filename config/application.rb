@@ -20,8 +20,8 @@ module Knowsense
     :address => "smtp.gmail.com",
     :port => "587",
     :domain => "mydomain.net",
-    :user_name => "mymailerapp@gmail.com",
-    :password => "gmailPassword",
+    :user_name => "peyushchowhan7@gmail.com",
+    :password => "jalaram70078",
     :authentication => "login",
     :enable_starttls_auto => true
   }
