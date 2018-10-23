@@ -21,7 +21,7 @@ module Knowsense
     :port => "587",
     :domain => "mydomain.net",
     :user_name => "peyushchowhan7@gmail.com",
-    :password => "jalaram70078",
+    :password => "password",
     :authentication => "login",
     :enable_starttls_auto => true
   }
